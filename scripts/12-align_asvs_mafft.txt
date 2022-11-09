@@ -1,0 +1,2 @@
+command=
+"/opt/arb/bin/mafft"  --retree 1 --reorder "lp2017-2019watercolumn16sreseq2_all.fasta" > "lp2017-2019watercolumn16sreseq2_all_mafft.fasta"

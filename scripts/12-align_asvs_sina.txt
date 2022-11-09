@@ -1,0 +1,3 @@
+# Align ASVs to Silva reference database in SINA v. 1.7.2
+conda activate sina
+sina -i lp2017-2019watercolumn16sreseq2_all.fasta -r SILVA_138.1_SSURef_NR99_12_06_20_opt.arb -o lp2017-2019watercolumn16sreseq2_all_sina.fasta --log-file lp2017-2019watercolumn16sreseq2_all_sina.log

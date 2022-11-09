@@ -1,0 +1,7 @@
+# 1. Run modified reformat_dada2_seqtabs.R (new version reformat_dada2_modified.R modified from original to import sequence table in .rda instead of .rds format).
+
+# 2. Run TaxAss
+sh RunSteps_quickie.sh otus FreshTrain15Jun2020silva138 silva_nr_v138_taxass 98 80 80 2
+
+# 3. Clean up TaxAss files
+sh RunStep_16.sh otus FreshTrain15Jun2020silva138 silva_nr_v138_taxass
